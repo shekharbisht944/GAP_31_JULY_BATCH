@@ -9,3 +9,9 @@ jobs:
    - name: Print info about github
      run: |
       echo 'Repository details ${{github.repository}}'
+      echo 'Env ${{github.env}}'
+      echo 'Event ${{github.event}}'
+      echo 'Eventname ${{github.event_name}}'
+      echo 'Job ${{github.job}}'
+      echo 'Repository owner ${{github.repository_owner}}'
+      echo 'Run Id ${{github.run_id	}}'
