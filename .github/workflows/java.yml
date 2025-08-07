@@ -8,9 +8,9 @@ jobs:
   runs-on: ubuntu_latest
   steps:
    - name: Setup Java JDK
-     uses: actions/setup-java@v3.14.0
+     uses: actions/setup-java@v3.14.1
      with:  
-      java-version: 17
+      java-version: '17'
       distribution: microsoft
    - name: Print Java Version
      run: java -version
