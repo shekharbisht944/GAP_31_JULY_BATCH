@@ -14,4 +14,3 @@ jobs:
       distribution: microsoft
    - name: Print Java Version
      run: java -version
-      
