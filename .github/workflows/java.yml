@@ -1,7 +1,6 @@
 name: Java Setup
 
-on:
- workflow_dispatch
+on: push
 
 jobs:
  java-setup:
