@@ -10,7 +10,7 @@ jobs:
    - name: Setup Java JDK
      uses: actions/setup-java@v3.14.0
      with:  
-      java-version: '17'
+      java-version: 17
       distribution: microsoft
    - name: Print Java Version
      run: java -version
