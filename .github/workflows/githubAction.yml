@@ -1,0 +1,11 @@
+name: GitHub Context
+
+on: 
+ workflow_dispatch
+jobs:
+ github_context:
+  runs-on: ubuntu_latest
+  steps:
+   - name: Print info about github
+     run: |
+      echo 'Repository details ${{github.repository}}'
