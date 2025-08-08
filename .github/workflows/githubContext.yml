@@ -4,7 +4,7 @@ on:
  workflow_dispatch
 jobs:
  github_context:
-  runs-on: ubuntu_latest
+  runs-on: ubuntu-latest
   steps:
    - name: Print info about github
      run: |
